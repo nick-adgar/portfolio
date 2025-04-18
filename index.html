@@ -13,29 +13,250 @@
     <p>Creative Producer • Storyteller • Athlete</p>
   </header>
 
+<header class="main-header">
   <nav class="nav-bar">
     <a href="#projects">Projects</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
+</header>
 
-  <section id="projects" class="project-grid">
-    <div class="project">
-      <img src="https://via.placeholder.com/600x350" alt="Kyren Paris">
-      <div class="project-info">
-        <h3>Kyren Paris Interview</h3>
-        <a href="https://youtu.be/lZd_3xToZ34" target="_blank">Watch Now</a>
+<section class="intro-section">
+  <div class="slideshow">
+    <img src="images/gallery1.jpg" alt="Gallery 1" class="slide active">
+    <img src="images/gallery2.jpg" alt="Gallery 2" class="slide">
+    <img src="images/gallery3.jpg" alt="Gallery 3" class="slide">
+    <img src="images/gallery4.jpg" alt="Gallery 4" class="slide">
+    <img src="images/gallery5.jpg" alt="Gallery 5" class="slide">
+    <img src="images/gallery6.jpg" alt="Gallery 6" class="slide">
+    <img src="images/gallery7.jpg" alt="Gallery 7" class="slide">
+    <img src="images/gallery8.jpg" alt="Gallery 8" class="slide">
+    <img src="images/gallery9.jpg" alt="Gallery 9" class="slide">
+  </div>
+  <div class="welcome-text">
+    <h2>Welcome to my Creative Portfolio</h2>
+    <p>My name is <strong>Nick Adgar</strong> — I'm a professional athlete, creative producer, and digital storyteller. From the baseball field to the editing suite, I build impactful media that connects and inspires.</p>
+  </div>
+</section>
+<section class="education-showcase">
+ <h2 class="section-heading">Education</h2>
+  <div class="edu-grid">
+<div class="edu-card">
+  <img src="images/trojans.png" alt="USC Logo">
+  <div class="edu-text">
+    <h3>University of Southern California</h3>
+    <p>M.S. Digital Media <span>• Class of 2025</span></p>
+    <p class="note"><em>Member of: Sports Business Association, Digital Media Association</em></p>
+  </div>
+</div>
+
+ <div class="edu-card">
+  <img src="images/menlo.png" alt="Menlo College Logo">
+  <div class="edu-text">
+    <h3>Menlo College</h3>
+    <p>B.S. Business Management <span>• Class of 2019</span></p>
+    <p class="note">(Focus in Sports Management)</p>
+    <p class="note">Iron Oak Award Recipient</p>
+  </div>
+</div>
+
+<div class="edu-card">
+  <img src="images/csm.png" alt="College of San Mateo Logo">
+  <div class="edu-text">
+    <h3>College of San Mateo</h3>
+    <p>A.A. Social Science & Business Admin <span>• 2017</span></p>
+    <p class="note">Graduated Cum Laude</p>
+    <p class="note">Academic All-State Team</p>
+  </div>
+</div>
+ 
+ </div>
+</section>
+
+<section class="edu-showcase">
+  <h2 class="section-heading">Work Experience</h2>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <img src="images/consistentnetwork.png" alt="The Consistent Network Logo">
+      <div class="edu-text">
+        <h3>Business Owner</h3>
+        <p>The Consistent Network</p>
       </div>
     </div>
-    <div class="project">
-      <img src="https://via.placeholder.com/600x350" alt="Steven Kwan">
-      <div class="project-info">
-        <h3>Steven Kwan Feature</h3>
-        <a href="https://youtu.be/Six5_hahBpk" target="_blank">Watch Now</a>
+
+    <div class="edu-card">
+      <img src="images/darnaud.png" alt="D’Arnaud Athletics Logo">
+      <div class="edu-text">
+        <h3>Digital Media Intern</h3>
+        <p>D’Arnaud Athletics</p>
       </div>
     </div>
-    <!-- Add more projects as needed -->
-  </section>
+
+    <div class="edu-card">
+      <img src="images/25eight.png" alt="25Eight Event Management Logo">
+      <div class="edu-text">
+        <h3>Event Staff & Media Assistant</h3>
+        <p>25Eight Event Management</p>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <img src="images/baseballplayer.png" alt="Professional Baseball Player Logo">
+      <div class="edu-text">
+        <h3>Professional Baseball Player</h3>
+        <p>Independent Minor Leagues</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<div class="filter-buttons">
+  <button onclick="filterProjects('all')">All</button>
+  <button onclick="filterProjects('interview')">Interviews</button>
+  <button onclick="filterProjects('event')">Events</button>
+  <button onclick="filterProjects('campaign')">Campaigns</button>
+  <button onclick="filterProjects('day')">Day in the Life</button>
+</div>
+
+
+<section id="projects" class="project-grid">
+
+  <!-- Steven Kwan -->
+  <div class="project interview">
+    <img src="images/stevenkwan.PNG" alt="Steven Kwan">
+    <div class="project-info">
+      <h3>Steven Kwan: Inspiring the Next Generation</h3>
+      <a href="https://youtu.be/jYlr1DQQqpg?si=79Cdg4JhgRjxXCmi" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Kyren Paris -->
+  <div class="project interview">
+    <img src="images/kyrenparis.PNG" alt="Kyren Paris Angels">
+    <div class="project-info">
+      <h3>Kyren Paris – Road to the MLB</h3>
+      <a href="https://youtu.be/lZd_3xToZ34?si=o697pu8CJfxSKaiQ" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Clinic with the Pros – Oakland -->
+  <div class="project event">
+    <img src="images/clinic.PNG" alt="Clinic with the Pros Oakland">
+    <div class="project-info">
+      <h3>Clinic with the Pros – Oakland</h3>
+      <a href="#" target="_blank">View Recap</a>
+    </div>
+  </div>
+
+  <!-- USC Next Level Sports Conference -->
+  <div class="project event">
+    <img src="images/usc.png" alt="USC Next Level Sports">
+    <div class="project-info">
+      <h3>USC Next Level Sports Conference</h3>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7254296311573688321/?originTrackingId=5iXsTiczRZWum%2FBkAM2QAg%3D%3D" target="_blank">View Highlights</a>
+    </div>
+  </div>
+
+  <!-- Kris Bubic – Spring Training Interview -->
+  <div class="project interview">
+    <img src="images/krisbubic.png" alt="Kris Bubic">
+    <div class="project-info">
+      <h3>Kris Bubic – Spring Training Interview</h3>
+      <a href="https://youtu.be/SZmnA6bIhEE?si=anDDmfOVtcsY1-46" target="_blank">Watch Interview</a>
+    </div>
+  </div>
+
+  <!-- Milo Eifler – Draft Combine Prep -->
+  <div class="project interview">
+    <img src="images/miloeifler.png" alt="Milo Eifler">
+    <div class="project-info">
+      <h3>Milo Eifler – Draft Combine Prep</h3>
+      <a href="https://www.instagram.com/tv/COLR8ZTJQWw/?igshid=YmMyMTA2M2Y%3D" target="_blank">Watch Reel</a>
+    </div>
+  </div>
+<!-- Baseball Generations 2024 -->
+<div class="project event">
+  <img src="images/baseballgenerations.png" alt="Baseball Generations 2024">
+  <div class="project-info">
+    <h3>Baseball Generations 2024</h3>
+    <a href="https://www.instagram.com/p/DCX2pdbSqXG/" target="_blank">View Post</a>
+  </div>
+</div>
+  <!-- Matts Benson – Showroom LA Tour -->
+  <div class="project interview">
+    <img src="images/matts.PNG" alt="Matts Benson Showroom LA">
+    <div class="project-info">
+      <h3>Matts Benson – Showroom LA Tour</h3>
+      <a href="https://youtu.be/_iNHz9tpjcI?si=4JChVHz18Y4sD6e6" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Loyal to My Soil Gala -->
+  <div class="project event">
+    <img src="images/loyalgala.PNG" alt="Loyal to My Soil Gala">
+    <div class="project-info">
+      <h3>Loyal to My Soil Gala</h3>
+      <a href="https://www.instagram.com/p/DFKAJzERGiS/" target="_blank">Watch Recap</a>
+    </div>
+  </div>
+
+  <!-- Tyson Ross -->
+  <div class="project interview">
+    <img src="images/tysonross.PNG" alt="Tyson Ross MLB">
+    <div class="project-info">
+      <h3>Tyson Ross – Loyal to my Soil Founder</h3>
+      <a href="#">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Steven Kwan Day in the Life -->
+  <div class="project day">
+    <img src="images/kwanday.png" alt="Steven Kwan Day in the Life">
+    <div class="project-info">
+      <h3>Steven Kwan – Day in the Life</h3>
+      <a href="https://youtu.be/Six5_hahBpk" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Bryan Woo -->
+  <div class="project day">
+    <img src="images/bryanwoo.png" alt="Bryan Woo">
+    <div class="project-info">
+      <h3>Bryan Woo – Seattle Mariners</h3>
+      <a href="https://youtu.be/lgvyhk86vEg" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Juan Hillman -->
+  <div class="project day">
+    <img src="images/juanhillman.png" alt="Juan Hillman">
+    <div class="project-info">
+      <h3>Juan Hillman – Tommy John Rehab</h3>
+      <a href="https://youtu.be/eoeMzZunhgQ" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Cal Stevenson -->
+  <div class="project day">
+    <img src="images/calstevenson.png" alt="Cal Stevenson">
+    <div class="project-info">
+      <h3>Cal Stevenson – 2023 Offseason</h3>
+      <a href="https://youtu.be/tjlCZEE4T40" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+  <!-- Armani Smith -->
+  <div class="project day">
+    <img src="images/armanismith.png" alt="Armani Smith">
+    <div class="project-info">
+      <h3>Armani Smith – SF Giants Prospect</h3>
+      <a href="https://youtu.be/-aotv-Zx5BI" target="_blank">Watch Now</a>
+    </div>
+  </div>
+
+</section>
 
   <section id="about" class="info-block">
     <h2>About Nick</h2>
